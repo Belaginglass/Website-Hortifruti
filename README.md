@@ -6,6 +6,9 @@ Este é um projeto novo em que estou trabalhando para exercitar minhas habilidad
 
 O objetivo deste projeto é aplicar conceitos avançados de design responsivo e treinar as minhas habilidades de desenvolvimento.
 
+## 🌐 Acesso ao Projeto
+
+Este projeto está hospedado no GitHub Pages. Você pode acessá-lo através deste link: (https://belaginglass.github.io/Website-Hortifruti/)
 
 ## 🚀 Tecnologias Utilizadas
 
