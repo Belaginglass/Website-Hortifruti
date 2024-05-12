@@ -13,7 +13,7 @@
     <a href="#" class="logo-header"><img src="images/logo.png" alt="Logo"></a>
     <nav class="main-nav">
         <ul class="header-list-container">
-            <li class="nav-item"><a href="#home" class="home-active">Home</a></li>
+            <li class="nav-item home-active"><a href="#home">Home</a></li>
             <li class="nav-item"><a href="#categories">Categories</a></li>
             <li class="nav-item"><a href="#products">Products</a></li>
             <li class="nav-item"><a href="#about">About</a></li>
@@ -74,6 +74,138 @@
         <button type="button" class="next-button" data-change-slide-button="next">
             <img src="images/right-arrow.png" alt="">
         </button>
+    </section>
+    <section class="categories-container" id="categories">
+        <div class="header">
+            <div class="header-text">
+                <h1>Browse Our Hottest</h1>
+                <span>Categories</span></div>
+            <div class="header-btn-container">
+                <p>See All</p>
+                <button class="header-btn">
+                    <img src="images/right-arrow.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="categories-container-items">
+            <div class="box box1 "> 
+                <img class="box-img" src="images/fruits.jpg" alt="">
+                <h2>Fruits</h2>
+                <span>(22 Items)</span>
+                <img class="categories-item-arrow" src="images/right-arrow-alt-solid-24.png" alt="">
+            </div>
+            <div class="box box2 ">
+                <img class="box-img" src="images/Vegetables.jpg" alt="">
+                <h2>Vegetables</h2>
+                <span>(22 Items)</span>
+                <img class="categories-item-arrow" src="images/right-arrow-alt-solid-24.png" alt="">
+            </div>
+            <div class="box box3 ">
+                <img class="box-img" src="images/drinks.jpg" alt="">
+                <h2>Drinks</h2>
+                <span>(22 Items)</span>
+                <img class="categories-item-arrow" src="images/right-arrow-alt-solid-24.png" alt="">
+            </div>
+            <div class="box box4 ">
+                <img class="box-img" src="images/nuts.jpg" alt="">
+                <h2>Fresh Nuts</h2>
+                <span>(22 Items)</span>
+                <img class="categories-item-arrow" src="images/right-arrow-alt-solid-24.png" alt="">
+            </div>
+            <div class="box box5 ">
+                <img class="box-img" src="images/spices.jpg" alt="">
+                <h2>Spices</h2>
+                <span>(22 Items)</span>
+                <img class="categories-item-arrow" src="images/right-arrow-alt-solid-24.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="products-container" id="products">
+        <div class="header">
+            <div class="header-text">
+                <h1>Our Popular</h1>
+                <span>Products</span></div>
+            <div class="header-btn-container">
+                <p>Shop Now</p>
+                <button class="header-btn">
+                    <img src="images/right-arrow.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="products-container-items">
+            <div class="box">
+                <img class="product-image" src="images/tomate.jpg" alt="">
+                <div class="product-text">
+                    <span>Vegetables</span>
+                    <h2 class="product-title" >Farm fresh organic fruites 250g</h2>
+                </div>
+                <h3 class="product-price">$7.99<span>/kg</span></h3>
+                <button class="add-product-btn"><img  src="images/cart-add-regular-24.png"></button>
+                <a href=""><img class="favorite-btn" src="images/heart-regular.png"></a>
+            </div>
+            <div class="box">
+                <img class="product-image" src="images/meat.jpg" alt="">
+                <div class="product-text">
+                    <span>Meat</span>
+                    <h2 class="product-title" >Farm fresh organic meat 1kg</h2>
+                </div>
+                <h3 class="product-price">$11.00<span>/kg</span></h3>
+                <button class="add-product-btn"><img  src="images/cart-add-regular-24.png"></button>
+                <a href=""><img class="favorite-btn" src="images/heart-regular.png"></a>
+            </div>
+            <div class="box">
+                <img class="product-image" src="images/honey.jpg" alt="">
+                <div class="product-text">
+                    <span>honey</span>
+                    <h2 class="product-title" >Farm fresh organic honey 200g</h2>
+                </div>
+                <h3 class="product-price">$7.99<span>/kg</span></h3>
+                <button class="add-product-btn"><img  src="images/cart-add-regular-24.png"></button>
+                <a href=""><img class="favorite-btn" src="images/heart-regular.png"></a>
+            </div>
+        </div>
+    </section>
+    <section class="cart-container">
+        <div class="header">
+            <div class="header-text">
+                <h1>Your Products</h1>
+                <span>Basket</span>
+            </div>
+        </div>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th class="table-head-item first-col">ITENS</th>
+                    <th class="table-head-item second-col">product-price</th>
+                    <th class="table-head-item third-col">Quantify</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="cart-total-container">
+                        <strong>Total: </strong>
+                        <span>$0.00</span>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <button class="purchase-button">Finalize purchase</button>
+    </section>
+    <section class="about-container" id="about">
+        <img class="about-image" src="images/about_img.png" alt="">
+        <div class="about-text-container">
+            <span>About Us</span>
+            <h1>We Believe In Working With Accredited Farmers</h1>
+            <p>Organic Foods And Café Is A Family Run Company That Runs Organic Super Markets And Cafés Selling Fresh Organic And Biodynamic Food, Supplers, Skincare, Cosmetics, Baby Items And Household Cleaning Products. We Have 5 Shops In Dubai - On Sheikh Zayed Road.</p>
+            <div class="about-btn-container">
+                <p>Learn More</p>
+                <button class="about-btn">
+                    <img src="images/right-arrow.png" alt="">
+                </button>
+            </div>
+        </div>
     </section>
 </body>
 </html>
